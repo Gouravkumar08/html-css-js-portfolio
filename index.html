@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Gourav Kumar</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about"> About</a></li>
+          <li><a href="#skills"> Skills </a></li>
+          <li><a href="#projects"> Projects</a></li>
+          <li><a href="#contact"> Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Gourav Kumar</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()"> About</a></li>
+          <li><a href="#skills" onclick="toggleMenu()"> Skills </a></li>
+          <li><a href="#projects" onclick="toggleMenu()"> Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()"> Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section-pic-container">
+        <img
+          src="./assets/mypic-Photoroom_hd.png"
+          alt="Gourav Kumar profile pictue"
+        />
+      </div>
+      <div class="section_text">
+        <p class="section__text_p1">Hello I,m</p>
+        <h1 class="title">Gourav Kumar</h1>
+        <p class="section__text_p2">Web Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/gauravCV.pdf')"
+          >
+            Download CV
+          </button>
+          <button
+            class="btn btn-color-1"
+            onclick="location.href='./#contact'"
+          >
+            Contact info
+          </button>
+        </div>
+        <div id="socials-container">
+            <img src="./assets/linkedin.png" alt="My linkedin "
+            class="icon" 
+            onclick="location.href='https://www.linkedin.com/in/gourav-kumar-46151a216/'">
+            <img src="./assets/github.png" alt="My Github "
+            class="icon" 
+            onclick="location.href='https://github.com/Gouravkumar08'">
+        </div>
+      </div>
+    </section>
+    <section id="about">
+        <p class="section__text_p1"> Get to Know More</p>
+        <h1 class="title"> About Me</h1>
+        <div class="section-container">
+            <div class="section-pic-container">
+                <img src="./assets/myStanding pic enhanced.png" alt="Profile Picture" 
+                class="about-pic">
+
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="Education"
+                        class="icon"/>
+                        <h3> Education</h3>
+                        <p> B.Tech (CSE)<br> Galgotias College of Engineering & Technology</p>
+                    </div>
+                    
+                </div>
+                <div class="text-container">
+                    <p>
+                      Passionate web developer dedicated to building robust applications and innovative solutions.<br> Committed to continuous improvement,
+                      I enjoy tackling complex challenges and delivering  high-quality work.
+                    </p>        
+                </div>
+            </div>
+
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="arrow" 
+        class="arrow" onclick="location.href='./#skills'">
+    </section>
+
+    <section id="skills">
+      <p class="section__text_p1">Explore my</p>
+      <h1 class="title">Skills</h1>
+      <div class="skills-details-containers">
+        <div class="about-containers">
+          <div class="details-container">
+            <h1 class="skill-title"> FrontEnd Development</h1>
+            <div class="article-container">
+              <article>
+                <img src="./assets/html_page-.png"alt="skill icon" 
+                class="icons">
+                <div>
+                  <h3>HTML</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/CSS3_Logo_full_page-0001-removebg-preview.png"alt="skill icon" 
+                class="icons">
+                <div>
+                  <h3>CSS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/JavaScript_Logo_page-0001.jpg"alt="skill icon" 
+                class="icons">
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h1 class="skill-title"> BackEnd Development</h1>
+            <div class="article-container">
+              <article>
+                <img src="./assets/Java_logo.png"alt="skill icon" 
+                class="icons">
+                <div>
+                  <h3>Java</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/Spring_Boot_Logo_page-0001.jpg"alt="skill icon" 
+                class="icons">
+                <div>
+                  <h3>Java Spring Boot</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/Azure_SQL_Database_Logo_page-0001-removebg-preview.png"alt="skill icon" 
+                class="icons">
+                <div>
+                  <h3>SQL</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/github.png"alt="skill icon" 
+                class="icons">
+                <div>
+                  <h3>Git/Github</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="./assets/arrow.png" alt="arrow" 
+        class="arrow" onclick="location.href='./#projects'">
+
+    </section>
+    <section id="projects">
+      <p class="section__text_p1">Browse my Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="skills-details-containers">
+        <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project 1.png"alt="Project 1"
+            class="project-img">
+          </div>
+          <h2 class="skill-title project-title">Restful E-Commerce API</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" 
+            onclick="location.href='https://github.com/Gouravkumar08/ECommerce_Backend'">
+            Github
+          </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/Project 2.png"alt="Project 1"
+            class="project-img2">
+          </div>
+          <h2 class="skill-title project-title">Bank Management System</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" 
+            onclick="location.href='https://github.com/Gouravkumar08/Bank_Management_System'">
+            Github
+          </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/Project 3.png"alt="Project 3"
+            class="project-img">
+          </div>
+          <h2 class="skill-title project-title">Billing System</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" 
+            onclick="location.href='https://github.com/Gouravkumar08/Billing_system'">
+            Github
+          </button>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" 
+            onclick="location.href='https://posbillingsystem.netlify.app/'">
+            Live Demo
+          </button>
+          </div>
+        </div>  
+      </div>
+      <img src="./assets/arrow.png" alt="arrow" 
+      class="arrow" onclick="location.href='./#contact'">
+    </section>
+
+    <section id="contact">
+      <p class="section__text_p1">Get in touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="info-container">
+          <img src="./assets/email.png" alt="email-icon" 
+          class="icon contact-icon">
+          <p><a href="mailto:raj11gourav44@gmail.com">raj11gourav44@gmail.com</a></p>
+        </div>
+        <div class="info-container">
+          <img src="./assets/linkedin.png"
+           alt="linkedin icon" 
+          class="icon contact-icon">
+          <p><a href="https://www.linkedin.com/in/gourav-kumar-46151a216/">Linkedin</a></p>
+        </div>
+        <div class="info-container">
+          <img src="./assets/location.png" alt="location-icon" 
+          class="icon contact-icon">
+          <p>Ghaziabad, India (201001)</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="nav-links-container">
+      <nav id="desktop-nav">
+        <div class="logo">Gourav Kumar</div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="#about"> About</a></li>
+            <li><a href="#skills"> Skills </a></li>
+            <li><a href="#projects"> Projects</a></li>
+            <li><a href="#contact"> Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p class="p">Copyright &#169; Gourav Kumar. All Rights Reserved</p>
+    </footer>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
