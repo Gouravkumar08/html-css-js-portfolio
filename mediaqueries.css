@@ -82,8 +82,8 @@
   }
   .about-pic {
     margin: 0 auto;
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
   }
   .text-container {
     margin-left: 0;
@@ -137,12 +137,12 @@
     font-size: 1.25rem;
   }
   .section-pic-container {
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
   }
   .about-pic {
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
   }
   .details-container {
     margin: 0.5rem;
@@ -192,12 +192,12 @@
     font-size: 1rem;
   }
   .section-pic-container {
-    height: 100px;
-    width: 100px;
+    height: 180px;
+    width: 180px;
   }
   .about-pic {
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
   }
   .details-container {
     margin: 0.25rem;
