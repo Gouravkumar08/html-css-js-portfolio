@@ -39,7 +39,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   nav {
     height: 10vh;
   }
@@ -62,7 +62,7 @@
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 800px) {
   nav {
     height: 8vh;
     position: relative;
@@ -111,7 +111,7 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
   nav {
     height: 7vh;
     justify-content: space-between;
@@ -166,7 +166,7 @@
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   nav {
     height: 6vh; /* Adjusted height for very small screens */
     justify-content: space-between;
